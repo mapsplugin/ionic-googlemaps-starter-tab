@@ -17,3 +17,5 @@ After that, run:
 $ ionic cordova platform add android
 $ ionic cordova run android
 ```
+
+![](./demo.gif)
