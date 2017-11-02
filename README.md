@@ -1,10 +1,4 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
-
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+This is a starter template for [@ionic-native/google-maps](https://ionicframework.com/docs/native/google-maps/) plugin.
 
 ### With the Ionic CLI:
 
@@ -12,15 +6,14 @@ Take the name after `ionic2-starter-`, and that is the name of the template to b
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+$ git clone https://github.com/mapsplugin/ionic-googlemaps-starter-tab
 ```
 
-Then, to run it, cd into `myTabs` and run:
+Then cd into `myTabs`, and modify the `(REPLACE WITH YOUR APK KEY)` in the `config.xml` and the `package.json` files.
+
+After that, run:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic cordova platform add android
+$ ionic cordova run android
 ```
-
-Substitute ios for android if not on a Mac.
-
