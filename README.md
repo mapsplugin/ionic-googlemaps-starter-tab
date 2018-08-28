@@ -1,21 +1,8 @@
-This is a starter template for [@ionic-native/google-maps](https://ionicframework.com/docs/native/google-maps/) plugin.
+# ionic-googlemaps-starter-tab
 
-### With the Ionic CLI:
+This is a basic example project of [@ionic-native/google-maps](https://www.npmjs.com/package/@ionic-native/google-maps) with ionic v3 tab application.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+## Demo
 
-```bash
-$ sudo npm install -g ionic cordova
-$ git clone https://github.com/mapsplugin/ionic-googlemaps-starter-tab
-```
-
-Then cd into `myTabs`, and modify the `(REPLACE WITH YOUR APK KEY)` in the `config.xml` and the `package.json` files.
-
-After that, run:
-
-```bash
-$ ionic cordova platform add android
-$ ionic cordova run android
-```
-
-![](./demo.gif)
+- [web demo](https://mapsplugin.github.io/ionic-googlemaps-starter-tab/)
+- [sample.apk](./sample.apk)
